@@ -1,8 +1,13 @@
-
 {
   "name": "chat",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Mr.cat",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.4"
+  },
+  "scripts": {
+    "start": "electron ./index.js"
+  }
 }
