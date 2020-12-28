@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cmn-Hans-CN">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>窗口标题</title>
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
-  <div style="padding: 60px; font-size: 38px; font-weight: bold; text-align: center;">
+  <div class="container">
     Hello world
   </div>
 
-  <script src="./objRender.js"></script>
+  <script src="./js/objRender.js"></script>
   <script>
     alert(window.objRender.key)
-    let ObjRender2 = require('./ObjRender2')
+    let ObjRender2 = require('./js/ObjRender2.js')
     alert(ObjRender2.key)
   </script>
 </body>
